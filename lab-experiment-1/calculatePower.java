@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Power {
+public class calculatePower {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
