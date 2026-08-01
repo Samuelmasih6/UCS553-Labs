@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LCM {
+public class LCMwGCD {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
