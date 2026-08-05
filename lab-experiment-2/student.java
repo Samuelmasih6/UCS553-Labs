@@ -23,6 +23,16 @@ class s{
         System.out.println("Roll no.:" + Rollno);
         System.out.println("course:" + course);
         System.out.println("marks:" + marks);
+        isPass(marks);
+    }
+
+    void isPass(float m){
+        if(m>50){
+        System.out.println("pass");
+        }
+        else{
+            System.out.println("fail");
+        }
     }
 }
 
@@ -33,5 +43,6 @@ public class student{
 
         s1.print();
         s2.print();
+
     }
 }
